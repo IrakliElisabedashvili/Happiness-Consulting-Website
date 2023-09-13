@@ -1,0 +1,484 @@
+/* Fonts Start */
+@font-face {
+    font-family: OpenSansLight;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: UbuntuMedium;
+    src: url('../fonts/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: UbuntuBold;
+    src: url('../fonts/Ubuntu-Bold.ttf');
+}
+
+.opensanslight{
+    font-family: OpenSansLight;
+}
+
+.opensansregular{
+    font-family: OpenSansRegular;
+}
+
+.opensanssemibold{
+    font-family: OpenSansSemiBold;
+}
+
+.montserratsemibold{
+    font-family: MontserratSemiBold;
+}
+
+.montserratbold{
+    font-family: MontserratBold;
+}
+
+.ubuntumedium{
+    font-family: UbuntuMedium;
+}
+
+.ubuntubold{
+    font-family: UbuntuBold;
+}
+
+body{
+    font-family: OpenSansRegular;
+}
+
+.text-justify{
+    text-align: justify;
+}
+/* Fonts End */
+
+
+
+/* *** Nav Start *** */
+nav{
+    min-height: 80px;
+}
+
+#navtoggler{
+    border: none;
+}
+
+#navtoggler:focus{
+    box-shadow: none;
+}
+
+/* Offcanvas Styles Start */
+#offcanvasNav{
+    transition: .8s ease-in-out;
+}
+
+#closeBtn{
+    background-image: none;
+}
+
+#closeBtn:focus{
+    box-shadow: none;
+}
+
+#closeBtn span{
+    color: white;
+    transition: .4s ease-in-out;
+}
+#closeBtn:hover span{
+    color: #c2c2c2;
+}
+
+#navlist .nav-link{
+    color: white;
+    transition: .8s ease-in-out;
+    width: fit-content;
+}
+
+#navlist .nav-link:hover{
+    color: #c2c2c2;
+}
+
+/* Offcanvas Styles End */
+
+
+/* *** Nav End *** */
+
+
+
+/* *** Header Start *** */
+header{
+    background-color: #efc241;
+    height: 100%;
+}
+
+/* Heading Image Column Start */
+#bgimagecolumn{
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 92% 50%;
+}
+/* Heading Image Column End */
+
+/* Heading Texts Start */
+.headingtext{
+    max-width: 75%;
+}
+
+.headingtextcol p a{
+    transition: .8s ease-in-out;
+}
+
+.headingtextcol p a:hover{
+    color: #c2c2c2 !important;
+}
+
+.headingtextcol .whitebtn {
+    background: white;
+    color: black;
+    transition: .8s ease-in-out;
+}
+
+.headingtextcol .whitebtn:hover {
+    background-color: black;
+    color: white;
+}
+/* Heading Texts End */
+
+
+/* *** Header End *** */
+
+
+
+/* *** About Us Start *** */
+#aboutuscontainer .row{
+    min-height: 604px;
+}
+
+#aboutuscontainer a{
+    background-color: black;
+    transition: .8s ease-in-out;
+}
+
+#aboutuscontainer a:hover{
+    background-color: #f59d32;
+}
+/* *** About Us End *** */
+
+
+
+/* *** 7 Ways How To Be Happy Container Start *** */
+#tobehappycontainer{
+    background-color: #63894c;
+    height: 100%;
+}
+
+#tobehappy-bg-imagecolumn{
+    background-image: url('../images/7ways-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -20% 50%;
+}
+/* *** 7 Ways How To Be Happy Container End *** */
+
+
+
+/* *** Lastest Our News Container Start *** */
+#latestnewscontainer{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+#latestnewscontainer .card{
+    box-shadow: 0 0 15px 0 #b4b4b4;
+}
+
+#latestnewscontainer .card img{
+    height: 205px;
+}
+
+#latestnewscontainer .card p{
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* *** Lastest Our News Container End *** */
+
+
+
+/* *** Happy Tips Container Start *** */
+#happycontainer{
+    background-color: #fc9d33;
+    height: 100%;
+}
+
+#happybgimagecolumn{
+    background-image: url('../images/happy-tips-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* *** Happy Tips Container End *** */
+
+
+
+/* *** Benefits Container Start *** */
+#benefitscontainer{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+#benefitslist li::marker{
+    content: '✔️';
+}
+
+#benefitslist li{
+    padding-left: 0;
+}
+/* *** Benefits Container End *** */
+
+
+
+/* *** Life Coaching Container Start *** */
+#lifecontainer{
+    background-color: #769a5a;
+}
+
+#lifebgimgcolumn{
+    background-image: url('../images/life-coaching-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* *** Life Coaching Container End *** */
+
+
+
+/* *** Happiness & Mindfulness Container Start *** */
+#mindfulnesscontainer{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+#mindfulnesscontainer .card{
+    box-shadow: 0 0 15px 0 #b4b4b4;
+}
+
+/* *** Happiness & Mindfulness Container End *** */
+
+
+
+/* *** Contact Us Container Start *** */
+#contactuscontainer .btn{
+    background-color: white;
+    color: black;
+    transition: .8s ease-in-out;
+}
+
+#contactuscontainer .btn:hover{
+    background-color: #f59d32;
+    color: white;
+}
+
+#contactuscontainer form input, #contactuscontainer form textarea{
+    background-color: #e5e5e5;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: none;
+}
+
+#contactuscontainer form input:focus,
+#contactuscontainer form textarea:focus{
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+}
+
+#contactuscontainer textarea{
+    resize: none;
+    font-size: 16px;
+}
+
+#contactuscontainer form .btn{
+    background-color: #3c9f62;
+    color: white;
+    transition: .8s ease-in-out;
+}
+/* *** Contact Us Container End *** */
+
+
+
+@media (max-width:576px){
+    /* Header Start */
+    #offcanvasNav{
+        width: 40%;
+    }
+    #bgimagecolumn{
+        background-position: 78% 50%;
+    }
+    /* Header End */
+
+    /* About Us Container Start */
+    #aboutuscontainer .card{
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutuscontainer #aboutusfirst{
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* About Us Container End */
+
+    /* Latest News Container Start */
+    #latestnewscontainer h2{
+        font-size: 30px;
+    }
+    #latestnewscontainer .card{
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Latest News Container End */
+
+    /* Happy Tips Container Start */
+    #happybgimagecolumn {
+        background-position: 50% 50%;
+    }
+    /* Happy Tips Container End */
+
+    /* Life Coaching Container Start */
+    #lifebgimgcolumn {
+        background-position: 25% 50%;
+    }
+    /* Life Coaching Container End */
+
+    /* Happiness & Mindfulness Container Start */
+    #mindfulnesscontainer h2{
+        font-size: 30px;
+    }
+    #mindfulnesscontainer .card{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Happiness & Mindfulness Container End */
+}
+
+
+@media (max-width: 700px){
+    #navcontainer{
+        margin-inline: 60px;
+    }
+}
+
+
+@media (max-width: 768px){
+    /* Header Start */
+    .headingtextcol h2{
+        font-size: 30px;
+    }
+
+    .headingtextcol{
+        text-align: center;
+    }
+    /* Header End */
+
+    /* About Us Start */
+    #aboutuscontainer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    /* About Us End */
+
+    /* To be Happy Container Start */
+    #tobehappy-bg-imagecolumn {
+        background-position: 50% 50%;
+    }
+    /* To be Happy Container End */
+
+    /* Latest News Container Start */
+    #latestnewscontainer .card img{
+        height: 100%;
+    }
+    /* Latest News Container End */
+
+    /* Contact Us Container Start */
+    .contacttexts{
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contacttexts h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    /* Contact Us Container End */
+}
+
+
+@media(576px < width < 768px){
+    /* To be Happy Container Start */
+    #tobehappy-bg-imagecolumn {
+        background-position: -30% 50%;
+    }
+    /* To be Happy Container End */
+
+    /* Life Coaching Container Start */
+    #lifebgimgcolumn {
+        background-position: -100% 50%;
+    }
+    /* Life Coaching Container End */
+}
+
+@media(768px <= width < 992px){
+    /* Header Start */
+    #bgimagecolumn{
+        background-position: 75% 50%;
+    }
+
+    .headingtextcol h1{
+        font-size: 36px;
+    }
+    /* Header End */
+
+    /* To be Happy Container Start */
+    #tobehappy-bg-imagecolumn {
+        background-position: 20% 50%;
+    }
+    /* To be Happy Container End */
+
+    /* Happy Tips Container Start */
+    #happybgimagecolumn {
+        background-position: 50% 50%;
+    }
+    /* Happy Tips Container End */
+
+    /* Life Coaching Container Start */
+    #lifebgimgcolumn {
+        background-position: 30% 50%;
+    }
+    /* Life Coaching Container End */
+}
+
+
